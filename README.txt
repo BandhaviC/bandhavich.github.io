@@ -1,6 +1,7 @@
-My portfolio is a showcase of my projects and technical skills.
-I am a Data Analyst/ Engineer. I have expertise in  data analysis, Python, Pyspark, SQL, data mining, data warehousing, data modelling, data cleansing, data validation.
-Used stored procedure, triggers, and views to provide structured data to business units by combining millions of rows of data from data sources. Used aggregate and window functions to perform complex SQL Queries. Proficient in developing visualizations with tableau and deploying those visualization into tableau server. I also worked with multiple teams to help them visualize the data for better understanding of data. I can interpret, analyze, and visualize large amount of datasets.
-Utilized python for data analysis using libraries such as NumPy, pandas, textblob and matplotlib.
-During my projects, I have utilized a tech stack that includes SQL, PySpark, Python, S3, Snowflake, Databricks. I have also worked extensively with tools like Tableau, Power BI and Looker studio and have hands-on experience in developing interactive reports and dashboards.
-Cloud Platforms include AWS, Azure and GCP Big Query.
+# UI/Web Developer
+## My portfolio is a showcase of my projects and technical skills
+I am a Dynamic UI/Web Developer with over 2+ years of experience, specializing in front-end
+development with a focus on creating responsive, user-friendly interfaces. Proficient in a range
+of web technologies and frameworks, including React.js and React Native. Adept in both Agile
+and Waterfall methodologies, with a commitment to delivering high-quality and scalable web
+applications. During my projects, I have utilized a tech stack that includes React Native, React, Angular, HTML, CSS, JavaScript, TypeScript. I have also worked extensively with tools like Tableau and Looker studio and have hands-on experience in developing interactive reports and dashboards. Cloud Platforms include AWS, Azure and GCP.
