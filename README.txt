@@ -1,5 +1,5 @@
-Data Analyst 
-My portfolio is a showcase of my projects and technical skills!
+# Data Analyst 
+## My portfolio is a showcase of my projects and technical skills!
 I am a passionate Data Analyst, I like Data Science and bringing data driven decisions and making predictions.
 development with a focus on creating responsive, user-friendly interfaces. Proficient in a wide range
 of technologies and frameworks, including HTML, CSS, Python, React, MongoDB. Adept in both Agile and Waterfall methodologies, with a commitment to delivering high-quality and scalable web
