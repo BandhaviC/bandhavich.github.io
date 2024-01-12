@@ -8,7 +8,16 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-
+		<nav>
+			<ul>
+				<li><a href="#experiences">Experience</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#resume">Resume</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
 
@@ -51,9 +60,82 @@
 									<li><a href="https://github.com/BandhaviC" class="button large">Check my profile</a></li>
 								</ul>
 							</article>
-
-						<!-- Posts -->
-							<section class="posts">
+							<section id="resume">
+								<!-- Resume section content -->
+								<button class="download-btn" onclick="location.href='https://docs.google.com/document/d/1s4zLw3UheTbf5DV6xy_N_VOjd2aktp55/edit?usp=sharing&ouid=100706129679149290865&rtpof=true&sd=true'">
+									<i class="fas fa-download"></i> Download Resume
+								</button>
+							</section>
+						
+						<section id="experiences">
+							<h2>Work Experience</h2>
+							<!-- Experience 1 -->
+							<div class="experience">
+								<h3>Data Analyst</h3>
+								<p class="company">MGM International Resorts, Las Vegas, Nevada</p>
+								<p class="date">Jan 2023 - Dec 2023</p>
+								<p class="description">Performed Data Wrangling and analysis using Databaricks. Created Dashboards using Power BI. Assisted with customized recommendations.</p>
+							</div>
+					
+							<!-- Experience 2 -->
+							<div class="experience">
+								<h3>Data Analyst</h3>
+								<p class="company">Capital One, Richmond, VA</p>
+								<p class="date">Apr 2022 - Dec 2022</p>
+								<p class="description">Cleansing and transforming the data using PySpark and python scripts via Databricks notebook. 
+									Publishing the modified data with the required output fields/schema to AWS Data lakes and Data marts using the Python Executor/ Finance Platform tool.</p>
+							</div>
+							
+							<!-- Experience 3 -->
+							<div class="experience">
+								<h3>Data Analyst</h3>
+								<p class="company">Delta Airlines, GA</p>
+								<p class="date">Jul 2021 - Feb 2022</p>
+								<p class="description">Designed complex Alteryx workflows that includes different components used for joining multiple tables from databases along with SQL queries for creating an automated report.
+									Processed data in Alteryx to create TDE for tableau reporting.</p>
+							</div>
+						</section>
+					
+						<section id="education">
+							<h2>Education</h2>
+							<!-- Education 1 -->
+							<div class="education">
+								<h3>Master of Science in Management of Information Systems</h3>
+								<p class="date">Aug 2019 - May 2021</p>
+								<p class="school">California State University Long Beach, CA</p>
+								<p class="grade">GPA: 3.23</p>
+							</div>
+					
+							<!-- Education 2 -->
+							<div class="education">
+								<h3>Bachelor Of Technology in Computer Science</h3>
+								<p class="date">Jun 2015 - Apr 2019</p>
+								<p class="school">Gandhi Institute of Technology and Management, India</p>
+								<p class="grade">GPA: 3.20</p>
+							</div>
+						</section>
+					
+							<section id ="projects" class="posts">
+								<article>
+									<header>
+										<h2><a href="#">Smart Care Application</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/smartcare.png" alt="Image" /></a>
+									<p>Designed screens and worked on Mobile App using Ionic framework for client interface and MongoDB for backend databases.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/BandhaviC/SmartCare" class="button">View code</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Beachbnb Application</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/airbnb.png" alt="Image" /></a>
+									<p>This is a project similar to Airbnb developed using Angular and MongoDB</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/BandhaviC/Beachbnb" class="button">View code</a></li>
+									</ul>
+								</article>
 								<article>
 									<header>
 										<h2><a href="#">Data Analysis of Uber Trips</a></h2>
@@ -97,7 +179,7 @@
 							</section>
 
 				<!-- Footer -->
-					<footer id="footer">
+					<footer id="contact">
 						<section class="split contact">
 							<section class="alt">
 								<h3>Location</h3>
